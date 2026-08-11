@@ -1,0 +1,42 @@
+name: texora_market
+description: TEXORA - Professional tech marketplace with local database, PC builder, AI assistant. Offline-first.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.16.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  sqflite: ^2.3.3
+  path: ^1.8.3
+  path_provider: ^2.1.2
+  shared_preferences: ^2.2.2
+  flutter_secure_storage: ^9.0.0
+  connectivity_plus: ^5.0.2
+  http: ^1.2.0
+  intl: ^0.19.0
+  uuid: ^4.4.0
+  equatable: ^2.0.5
+  shimmer: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/products/
+    - assets/images/categories/
+    - assets/images/brands/
+    - assets/images/banners/
+    - assets/icons/
+    - assets/fonts/
