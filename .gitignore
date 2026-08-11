@@ -1,0 +1,90 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# iOS related
+**/ios/**/*.mode375x812wallpaper
+**/ios/**/*.mode414x896wallpaper
+**/ios/**/*.mode512h
+**/ios/**/*.mode58mm
+**/ios/**/*.mode62mm
+**/ios/**/*.mode83mm
+**/ios/**/*.modet40mm
+**/ios/**/*.mode20mm
+**/ios/**/*.mode29mm
+**/ios/**/*.mode30mm
+**/ios/**/*.mode40mm
+**/ios/**/*.mode44mm
+**/ios/**/*.mode42mm
+**/ios/**/*.mode38mm
+**/ios/**/*.mode27mm
+**/ios/**/*.mode216mm
+**/ios/**/*.mode49mm
+**/ios/**/*.mode29mm
+**/ios/**/*.mode35mm
+**/ios/**/*.mov
+**/ios/**/*.mp4
+**/ios/**/*.mode101mm
+**/ios/**/*.mode20mm
+**/ios/**/*.mode29mm
+**/ios/**/*.mode30mm
+**/ios/**/*.mode40mm
+**/ios/**/*.mode44mm
+**/ios/**/*.mode42mm
+**/ios/**/*.mode38mm
+**/ios/**/*.mode27mm
+**/ios/**/*.mode216mm
+**/ios/**/*.mode49mm
+
+# Exceptions to above rules.
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
+# Env
+.env
+*.env
+
+# APKs
+*.apk
+*.aab
+!**/test_driver/**/generated_aab_check/
